@@ -60,7 +60,7 @@ cd build/Release
 GPU_Image_Filter.exe ..\..\input\input.jpg ..\..\output\output.png
 ```
 
-- **NOTE:** The paths used here are according to my pc if you want to run the project just delete output folder and run the bellow command in your PC while in the Release directory. Which is Root Project Folder --> build --> Release
+- **NOTE:** The paths used here are according to my pc if you want to run the project just delete the png in the output folder and then run the bellow command in your PC while in the Release directory. Which is Root Project Folder --> build --> Release
 ```cmd
 GPU_Image_Filter.exe ..\..\input\input.jpg ..\..\output\output.png
 ```
