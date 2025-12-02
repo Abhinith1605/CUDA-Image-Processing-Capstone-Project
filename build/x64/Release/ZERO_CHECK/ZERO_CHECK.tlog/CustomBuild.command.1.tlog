@@ -1,0 +1,10 @@
+^C:\USERS\ABHIN\ONEDRIVE\DESKTOP\CUDA-IMAGE-PROCESSING-CAPSTONE-PROJECT - COPY\BUILD\CMAKEFILES\E0DED34F71A2C27FF769B254C9B988EA\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/abhin/OneDrive/Desktop/CUDA-Image-Processing-Capstone-Project - Copy" "-BC:/Users/abhin/OneDrive/Desktop/CUDA-Image-Processing-Capstone-Project - Copy/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/abhin/OneDrive/Desktop/CUDA-Image-Processing-Capstone-Project - Copy/build/GPU_Image_Filter.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
