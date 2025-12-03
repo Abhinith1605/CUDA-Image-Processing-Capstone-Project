@@ -105,4 +105,10 @@ A **full thermal-style GPU visualization**, similar to FLIR or scientific imagin
 ### Required:
 - CUDA Toolkit ≥ 11.0  
 - Visual Studio 2019 or 2022  
-- OpenCV 4.x (Windows prebuilt package)  
+- OpenCV 4.x (Windows prebuilt package)
+
+---
+
+## **Presentation and Demonstration**
+
+- Link: https://drive.google.com/file/d/1Dm-u7bDpmQj4roMJfyAE7rxhkAdDnHdL/view?usp=sharing
